@@ -32,5 +32,6 @@ This URL is used for both the publisher and subscriber to connect to the same Ra
 
 I successfully set up an event-driven architecture with Rust, where my publisher dispatched events seamlessly to a subscriber via RabbitMQ. The clean RabbitMQ dashboard indicated an efficient process with no message queue backlog.
 
-</details>
 ---
+
+</details>
