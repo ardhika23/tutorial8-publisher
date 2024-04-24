@@ -22,8 +22,8 @@ The publisher program will send five events to the message broker in one run, as
 #### The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean?
 This URL is used for both the publisher and subscriber to connect to the same RabbitMQ server running on the local machine. It ensures that both the publisher and subscriber are interacting with the same message queue, allowing the subscriber to receive and process messages sent by the publisher.
 
-</details>
-
 #### Running RabbitMQ as message broker
 ![alt text](image.png)
+
+</details>
 ---
