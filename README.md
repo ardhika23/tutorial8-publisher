@@ -25,5 +25,12 @@ This URL is used for both the publisher and subscriber to connect to the same Ra
 #### Running RabbitMQ as message broker
 ![alt text](image.png)
 
+#### Sending and processing event
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+I successfully set up an event-driven architecture with Rust, where my publisher dispatched events seamlessly to a subscriber via RabbitMQ. The clean RabbitMQ dashboard indicated an efficient process with no message queue backlog.
+
 </details>
 ---
