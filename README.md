@@ -24,4 +24,6 @@ This URL is used for both the publisher and subscriber to connect to the same Ra
 
 </details>
 
+Running RabbitMQ as message broker
+![alt text](image.png)
 ---
