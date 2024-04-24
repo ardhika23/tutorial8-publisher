@@ -32,6 +32,12 @@ This URL is used for both the publisher and subscriber to connect to the same Ra
 
 I successfully set up an event-driven architecture with Rust, where my publisher dispatched events seamlessly to a subscriber via RabbitMQ. The clean RabbitMQ dashboard indicated an efficient process with no message queue backlog.
 
+#### Monitoring chart based on publisher 
+
+![alt text](image-3.png)
+
+After running the publisher program multiple times, the RabbitMQ management interface displayed spikes in the 'Message rates' graph, specifically under the 'Publish' metric. These spikes correlate with the execution instances of the publisher, indicating that messages are being sent to the queue. Each peak represents a batch of messages published, which the subscriber consumes. This real-time feedback from RabbitMQ's dashboard is valuable as it visually confirms the publisher’s activity and the subsequent handling of messages by the subscriber, ensuring the system's responsiveness and reliability. This is the explaination about the direct relationship between running the publisher and the message rate changes.
+
 ---
 
 </details>
